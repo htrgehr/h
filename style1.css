@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    border: border-box;
+}
+
+body{
+    background-image: url(4.jpg);
+    background-size: cover;
+}
+
+#login-page{
+    height: 400px;
+    width: 350px;
+    border: 2px solid white;
+    margin-left: 37%;
+    margin-top: 130px;
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#login-name{
+    background-color: rgba(255, 255, 255, 0.692);
+    height: 60px;
+    width: 150px;
+    border-radius: 0 0 20px 20px;
+    margin-left: 100px;
+    position: relative;
+}
+
+h1{
+    padding: 10px;
+    padding-left: 30px;
+}
+ 
+.input{
+    height: 200px;
+    width: 300px;
+    background-color: transparent;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.name{
+    width: 270px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+}
+
+#name{
+    width: 230px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50px 0px 0 50px;
+    background-color: transparent;
+    color: white;
+}
+
+#mt{
+    margin-top: 10px;
+    color: white;
+}
+
+#cb{
+    margin-top: 12px;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+#rm{
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.cb{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    margin-top: 20px;
+    border: 2px solid red;
+    border-radius: 50px;
+    height: 35px;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+    margin-left: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    background-color: white;
+    border: 2px dotted red;
+    color: red;
+    transition: all 0.5s ease-in-out;
+}
+
+.submit{
+    font-size: 20px;
+}
+
+#f{
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+#sign-up{
+    color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+a{
+    color: white;
+}
+
+#show{
+    height: 36px;
+    width: 40px;
+    border: 2px solid white;
+    display: inline-block;
+    position: absolute;
+    margin-left: -2px;
+    border-radius: 0 50px 50px 0;
+    margin-top: 0;
+}
